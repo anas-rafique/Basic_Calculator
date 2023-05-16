@@ -14,7 +14,7 @@
 
 <body>
     <h1 style="text-align: center;">CALCULATOR</h1>
-    <div class="d-flex w-50 justify-content-center  align-items-center container" style="height: 60vh;">
+    <div class="d-flex w-50 justify-content-center  align-items-center container" style="height: 80vh;">
         <table class="table">
             <thead>
                 <tr>
@@ -25,13 +25,25 @@
             <tbody>
                 <tr>
 
+                    <td><button onclick="get_num('Math.Sin')" type="button"
+                            class="btn btn-danger w-100 text-centre">Sin</button></td>
+                    <td><button onclick="get_num('Math.Cos')" type="button"
+                            class="btn btn-danger w-100 text-centre">Cos</button></td>
+                    <td><button onclick="get_num('Math.Tan')" type="button"
+                            class="btn btn-danger w-100 text-centre">Tan</button></td>
+                    <td><button onclick="get_num('Math.pow()')" type="button" class="btn btn-danger w-100 text-centre">^</button>
+                    </td>
+
+                </tr>
+                <tr>
+
                     <td><button onclick="get_num('&#40;')" type="button"
                             class="btn btn-secondary w-100 text-centre">&#40;</button></td>
                     <td><button onclick="get_num('&#41;')" type="button"
                             class="btn btn-secondary w-100 text-centre">&#41;</button></td>
                     <td><button onclick="get_num('Math.E')" type="button"
-                            class="btn btn-secondary w-100 text-centre">E</button></td>
-                    <td><button onclick="get_num('Math.PI')" type="button" class="btn btn-dark w-100 text-centre">&Pi;</button>
+                            class="btn btn-danger w-100 text-centre">E</button></td>
+                    <td><button onclick="get_num('Math.PI')" type="button" class="btn btn-danger w-100 text-centre">&Pi;</button>
                     </td>
 
                 </tr>
